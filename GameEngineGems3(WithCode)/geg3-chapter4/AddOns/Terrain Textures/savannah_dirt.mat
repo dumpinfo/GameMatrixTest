@@ -1,0 +1,4 @@
+texture0=.\savannah_dirt.tex
+texture1=.\savannah_dirtdot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

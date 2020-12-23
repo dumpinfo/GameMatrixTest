@@ -1,0 +1,4 @@
+texture0=.\jungle_roots2.tex
+texture1=.\jungle_roots2dot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

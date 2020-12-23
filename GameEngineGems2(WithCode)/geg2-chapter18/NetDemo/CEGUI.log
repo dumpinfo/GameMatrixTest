@@ -1,0 +1,481 @@
+02/11/2010 09:52:40 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+02/11/2010 09:52:40 (Std) 	+                     Crazy Eddie's GUI System - Event log                    +
+02/11/2010 09:52:40 (Std) 	+                          (http://www.cegui.org.uk/)                         +
+02/11/2010 09:52:40 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+02/11/2010 09:52:40 (Std) 	CEGUI::Logger singleton created. (00E2F750)
+02/11/2010 09:52:40 (Std) 	
+02/11/2010 09:52:40 (Std) 	********************************************************************************
+02/11/2010 09:52:40 (Std) 	* Important:                                                                   *
+02/11/2010 09:52:40 (Std) 	*     To get support at the CEGUI forums, you must post _at least_ the section *
+02/11/2010 09:52:40 (Std) 	*     of this log file indicated below.  Failure to do this will result in no  *
+02/11/2010 09:52:40 (Std) 	*     support being given; please do not waste our time.                       *
+02/11/2010 09:52:40 (Std) 	********************************************************************************
+02/11/2010 09:52:40 (Std) 	********************************************************************************
+02/11/2010 09:52:40 (Std) 	* -------- START OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM       -------- *
+02/11/2010 09:52:40 (Std) 	********************************************************************************
+02/11/2010 09:52:40 (Std) 	---- Version 0.7.2 (Build: Sep  8 2010 Microsoft Windows MSVC++ 9.0 32 bit) ----
+02/11/2010 09:52:40 (Std) 	---- Renderer module is: CEGUI::OpenGLRenderer - Official OpenGL based 2nd generation renderer module.  TextureTarget support enabled via FBO extension. ----
+02/11/2010 09:52:40 (Std) 	---- XML Parser module is: CEGUI::XercesParser - Official Xerces-C++ based parser module for CEGUI ----
+02/11/2010 09:52:40 (Std) 	---- Image Codec module is: SILLYImageCodec - Official SILLY based image codec ----
+02/11/2010 09:52:40 (Std) 	---- Scripting module is: None ----
+02/11/2010 09:52:40 (Std) 	********************************************************************************
+02/11/2010 09:52:40 (Std) 	* -------- END OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM         -------- *
+02/11/2010 09:52:40 (Std) 	********************************************************************************
+02/11/2010 09:52:40 (Std) 	
+02/11/2010 09:52:40 (Std) 	---- Begining CEGUI System initialisation ----
+02/11/2010 09:52:40 (Std) 	CEGUI::ImagesetManager singleton created (01DD0448)
+02/11/2010 09:52:40 (Std) 	CEGUI::FontManager singleton created. (01DD0538)
+02/11/2010 09:52:40 (Std) 	CEGUI::WindowFactoryManager singleton created
+02/11/2010 09:52:40 (Std) 	CEGUI::WindowManager singleton created (01DE87B8)
+02/11/2010 09:52:40 (Std) 	CEGUI::SchemeManager singleton created. (01DD0628)
+02/11/2010 09:52:40 (Std) 	CEGUI::MouseCursor singleton created. (00DBCA80)
+02/11/2010 09:52:40 (Std) 	CEGUI::GlobalEventSet singleton created. (01DC77E0)
+02/11/2010 09:52:40 (Std) 	CEGUI::AnimationManager singleton created (00DBC900)
+02/11/2010 09:52:40 (Std) 	CEGUI::WidgetLookManager singleton created. (01DCE2C8)
+02/11/2010 09:52:40 (Std) 	CEGUI::WindowRendererManager singleton created (01DCE2F0)
+02/11/2010 09:52:40 (Std) 	CEGUI::RenderEffectManager singleton created (01CE55E0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'DefaultWindow' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'DefaultWindow' windows added. (01D00340)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'DragContainer' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'DragContainer' windows added. (01D003E8)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'ScrolledContainer' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'ScrolledContainer' windows added. (01D00490)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'ClippedContainer' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'ClippedContainer' windows added. (01D00538)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Checkbox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Checkbox' windows added. (01D005E0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/PushButton' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/PushButton' windows added. (01D00688)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/RadioButton' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/RadioButton' windows added. (01D00730)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Combobox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Combobox' windows added. (01D007D8)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ComboDropList' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ComboDropList' windows added. (01D00880)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Editbox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Editbox' windows added. (01D00928)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/FrameWindow' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/FrameWindow' windows added. (01D009D0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ItemEntry' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ItemEntry' windows added. (01D00A78)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Listbox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Listbox' windows added. (01DD5C60)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ListHeader' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ListHeader' windows added. (01DD5D08)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ListHeaderSegment' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ListHeaderSegment' windows added. (01DD5DB0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Menubar' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Menubar' windows added. (01DD5E58)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/PopupMenu' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/PopupMenu' windows added. (01DD5F00)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/MenuItem' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/MenuItem' windows added. (01DD5FA8)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/MultiColumnList' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/MultiColumnList' windows added. (01DD6050)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/MultiLineEditbox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/MultiLineEditbox' windows added. (01DD60F8)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ProgressBar' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ProgressBar' windows added. (01DD61A0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ScrollablePane' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ScrollablePane' windows added. (01DD6248)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Scrollbar' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Scrollbar' windows added. (01DD62F0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Slider' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Slider' windows added. (01DD6398)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Spinner' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Spinner' windows added. (01DD6440)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/TabButton' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/TabButton' windows added. (01DD64E8)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/TabControl' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/TabControl' windows added. (01DD6590)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Thumb' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Thumb' windows added. (01DD6638)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Titlebar' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Titlebar' windows added. (01DD66E0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Tooltip' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Tooltip' windows added. (01DD6788)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/ItemListbox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/ItemListbox' windows added. (01DD6830)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/GroupBox' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/GroupBox' windows added. (01DD68D8)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'CEGUI/Tree' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'CEGUI/Tree' windows added. (01DD6980)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'HorizontalLayoutContainer' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'HorizontalLayoutContainer' windows added. (01DD6A28)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'VerticalLayoutContainer' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'VerticalLayoutContainer' windows added. (01DD6AD0)
+02/11/2010 09:52:40 (Std) 	Created WindowFactory for 'GridLayoutContainer' windows.
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'GridLayoutContainer' windows added. (01DD6B78)
+02/11/2010 09:52:40 (Std) 	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+02/11/2010 09:52:40 (Std) 	CEGUI::System singleton created. (00E2F488)
+02/11/2010 09:52:40 (Std) 	---- CEGUI System initialisation completed ----
+02/11/2010 09:52:40 (Std) 	
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUIScheme.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUIScheme.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Scheme from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI GUIScheme name: WindowsLookSkin
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: NetDemo
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/NetDemo.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: NetDemoTitles
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/NetDemoTitles.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: Fort
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/Fort.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: GlowFrame
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/GlowFrame.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: Meter
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/Meter.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: UFOButton
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/UFOButton.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Imageset.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Imageset.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Imageset from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI Imageset name: WindowsLook
+02/11/2010 09:52:40 (Std) 	---- Source texture file: CEGUI/imagesets/WindowsLook.tga in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Font.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Font.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Font from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI font name: Arial-Bold-12
+02/11/2010 09:52:40 (Std) 	----       Font type: FreeType
+02/11/2010 09:52:40 (Std) 	----     Source file: CEGUI/fonts/ArialBold.ttf in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	---- Real point size: 12
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Font.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Font.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Font from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI font name: Arial-Bold-16
+02/11/2010 09:52:40 (Std) 	----       Font type: FreeType
+02/11/2010 09:52:40 (Std) 	----     Source file: CEGUI/fonts/ArialBold.ttf in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	---- Real point size: 16
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Font.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Font.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Font from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI font name: Arial-Bold-24
+02/11/2010 09:52:40 (Std) 	----       Font type: FreeType
+02/11/2010 09:52:40 (Std) 	----     Source file: CEGUI/fonts/ArialBold.ttf in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	---- Real point size: 24
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Font.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Font.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Font from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI font name: Arial-Bold-48
+02/11/2010 09:52:40 (Std) 	----       Font type: FreeType
+02/11/2010 09:52:40 (Std) 	----     Source file: CEGUI/fonts/ArialBold.ttf in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	---- Real point size: 48
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Font.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Font.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Font from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI font name: DejaVuSans-10
+02/11/2010 09:52:40 (Std) 	----       Font type: FreeType
+02/11/2010 09:52:40 (Std) 	----     Source file: CEGUI/fonts/DejaVuSans.ttf in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	---- Real point size: 10
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Font.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Font.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Started creation of Font from XML specification:
+02/11/2010 09:52:40 (Std) 	---- CEGUI font name: DejaVuSans-12
+02/11/2010 09:52:40 (Std) 	----       Font type: FreeType
+02/11/2010 09:52:40 (Std) 	----     Source file: CEGUI/fonts/DejaVuSans.ttf in resource group: (Default)
+02/11/2010 09:52:40 (Std) 	---- Real point size: 12
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'Falagard.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'Falagard.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	===== Falagard 'root' element: look and feel parsing begins =====
+02/11/2010 09:52:40 (Std) 	===== Look and feel parsing completed =====
+02/11/2010 09:52:40 (Std) 	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Button' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Button' added. (01DD7208)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Default' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Default' added. (01DD7400)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Editbox' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Editbox' added. (01DD76A0)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/FrameWindow' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/FrameWindow' added. (01DD7748)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ItemEntry' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ItemEntry' added. (01DD77F0)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ListHeader' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ListHeader' added. (01DD7898)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ListHeaderSegment' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ListHeaderSegment' added. (01DD7940)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Listbox' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Listbox' added. (01DD79E8)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Menubar' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Menubar' added. (01DD7A90)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/MenuItem' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/MenuItem' added. (01DD7B38)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/MultiColumnList' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/MultiColumnList' added. (01E291A8)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/MultiLineEditbox' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/MultiLineEditbox' added. (01E29250)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/PopupMenu' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/PopupMenu' added. (01E292F8)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ProgressBar' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ProgressBar' added. (01E293A0)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ScrollablePane' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ScrollablePane' added. (01E29448)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Scrollbar' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Scrollbar' added. (01E294F0)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Slider' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Slider' added. (01E29598)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Static' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Static' added. (01E29640)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/StaticImage' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/StaticImage' added. (01E296E8)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/StaticText' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/StaticText' added. (01E29790)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/SystemButton' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/SystemButton' added. (01E29838)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/TabButton' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/TabButton' added. (01E298E0)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/TabControl' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/TabControl' added. (01E29988)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Titlebar' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Titlebar' added. (01E29A30)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ToggleButton' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ToggleButton' added. (01E29AD8)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Tooltip' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Tooltip' added. (01E29B80)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/ItemListbox' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/ItemListbox' added. (01E29C28)
+02/11/2010 09:52:40 (Std) 	Created WindowRendererFactory for 'Falagard/Tree' WindowRenderers.
+02/11/2010 09:52:40 (Std) 	WindowRendererFactory 'Falagard/Tree' added. (01E29CD0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/Button' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' Look'N'Feel 'WindowsLook/Checkbox' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/IconButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/IconButton' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' Look'N'Feel 'WindowsLook/RadioButton' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' Look'N'Feel 'WindowsLook/FrameWindow' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' Look'N'Feel 'WindowsLook/Titlebar' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/SystemButton' Look'N'Feel 'WindowsLook/SystemButton' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' Look'N'Feel 'WindowsLook/Editbox' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' Look'N'Feel 'WindowsLook/MultiLineEditbox' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' Look'N'Feel 'WindowsLook/Menubar' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' Look'N'Feel 'WindowsLook/PopupMenu' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' Look'N'Feel 'WindowsLook/MenuItem' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' Look'N'Feel 'WindowsLook/ProgressBar' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'WindowsLook/VerticalScrollbar' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'WindowsLook/HorizontalScrollbar' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/VerticalScrollbarThumb' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/HorizontalScrollbarThumb' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' Look'N'Feel 'WindowsLook/TabButton' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' Look'N'Feel 'WindowsLook/TabControl' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/TabContentPane' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/TabButtonPane' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' Look'N'Feel 'WindowsLook/ComboDropList' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/Combobox' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' Look'N'Feel 'WindowsLook/Listbox' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' Look'N'Feel 'WindowsLook/ListHeader' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' Look'N'Feel 'WindowsLook/ListHeaderSegment' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' Look'N'Feel 'WindowsLook/MultiColumnList' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' Look'N'Feel 'WindowsLook/Slider' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/SliderThumb' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' Look'N'Feel 'WindowsLook/ScrollablePane' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/Spinner' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' Look'N'Feel 'WindowsLook/Tooltip' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/Static' using base type 'DefaultWindow', window renderer 'Falagard/Static' Look'N'Feel 'WindowsLook/Static' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' Look'N'Feel 'WindowsLook/StaticImage' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'WindowsLook/StaticText' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ItemListbox' using base type 'CEGUI/ItemListbox', window renderer 'Falagard/ItemListbox' Look'N'Feel 'WindowsLook/ItemListbox' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'WindowsLook/ListboxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' Look'N'Feel 'WindowsLook/ListboxItem' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'NetDemo/Meter' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'NetDemo/Meter' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'NetDemo/Frame' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'NetDemo/Frame' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'NetDemo/GlowFrame' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'NetDemo/GlowFrame' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	Creating falagard mapping for type 'NetDemo/ListBoxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' Look'N'Feel 'NetDemo/ListBoxItem' and RenderEffect ''. (00AECFC0)
+02/11/2010 09:52:40 (Std) 	WindowFactory for 'NetDemo/ListBoxItem' windows added. (6205F478)
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/MainMenu.layout' ----
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Attempting to create Imageset 'Arial-Bold-24_auto_glyph_images_ ' with texture only.
+02/11/2010 09:52:40 (Std) 	Attempting to create Imageset 'DejaVuSans-10_auto_glyph_images_ ' with texture only.
+02/11/2010 09:52:40 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/Lobby.layout' ----
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:40 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:40 (Std) 	Attempting to create Imageset 'Arial-Bold-16_auto_glyph_images_ ' with texture only.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/ConnectionFailPrompt.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/Loading.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/ReadyRoom.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/Garage.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/Options.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/HUD.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	Attempting to create Imageset 'DejaVuSans-12_auto_glyph_images_ ' with texture only.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/Help.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/DebugInfo.layout' ----
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - Attempting to load schema from file 'GUILayout.xsd'.
+02/11/2010 09:52:41 (Std) 	XercesParser::initialiseSchema - XML schema file 'GUILayout.xsd' has been initialised.
+02/11/2010 09:52:41 (Std) 	---- Successfully completed loading of GUI layout from 'CEGUI/layouts/NetDemo/QuitPrompt.layout' ----
+02/11/2010 09:55:51 (Std) 	---- Begining CEGUI System destruction ----
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Tree' windows removed. (01DD6980)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Tree' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Thumb' windows removed. (01DD6638)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Thumb' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Slider' windows removed. (01DD6398)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Slider' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Editbox' windows removed. (01D00928)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Editbox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Listbox' windows removed. (01DD5C60)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Listbox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Menubar' windows removed. (01DD5E58)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Menubar' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Spinner' windows removed. (01DD6440)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Spinner' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Tooltip' windows removed. (01DD6788)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Tooltip' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'DefaultWindow' windows removed. (01D00340)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'DefaultWindow' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'DragContainer' windows removed. (01D003E8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'DragContainer' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Checkbox' windows removed. (01D005E0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Checkbox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Combobox' windows removed. (01D007D8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Combobox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/GroupBox' windows removed. (01DD68D8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/GroupBox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/MenuItem' windows removed. (01DD5FA8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/MenuItem' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Titlebar' windows removed. (01DD66E0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Titlebar' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ItemEntry' windows removed. (01D00A78)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ItemEntry' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/PopupMenu' windows removed. (01DD5F00)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/PopupMenu' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/Scrollbar' windows removed. (01DD62F0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/Scrollbar' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/TabButton' windows removed. (01DD64E8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/TabButton' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ListHeader' windows removed. (01DD5D08)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ListHeader' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/PushButton' windows removed. (01D00688)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/PushButton' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/TabControl' windows removed. (01DD6590)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/TabControl' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'ClippedContainer' windows removed. (01D00538)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'ClippedContainer' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/FrameWindow' windows removed. (01D009D0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/FrameWindow' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ItemListbox' windows removed. (01DD6830)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ItemListbox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ProgressBar' windows removed. (01DD61A0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ProgressBar' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/RadioButton' windows removed. (01D00730)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/RadioButton' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'ScrolledContainer' windows removed. (01D00490)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'ScrolledContainer' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ComboDropList' windows removed. (01D00880)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ComboDropList' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'GridLayoutContainer' windows removed. (01DD6B78)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'GridLayoutContainer' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'NetDemo/ListBoxItem' windows removed. (6205F478)
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ScrollablePane' windows removed. (01DD6248)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ScrollablePane' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/MultiColumnList' windows removed. (01DD6050)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/MultiColumnList' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/MultiLineEditbox' windows removed. (01DD60F8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/MultiLineEditbox' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'CEGUI/ListHeaderSegment' windows removed. (01DD5DB0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'CEGUI/ListHeaderSegment' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'VerticalLayoutContainer' windows removed. (01DD6AD0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'VerticalLayoutContainer' windows.
+02/11/2010 09:55:51 (Std) 	WindowFactory for 'HorizontalLayoutContainer' windows removed. (01DD6A28)
+02/11/2010 09:55:51 (Std) 	Deleted WindowFactory for 'HorizontalLayoutContainer' windows.
+02/11/2010 09:55:51 (Std) 	---- Begining cleanup of GUI Scheme system ----
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Button' WindowRenderers removed. (01DD7208)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Button' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Default' WindowRenderers removed. (01DD7400)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Default' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Editbox' WindowRenderers removed. (01DD76A0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Editbox' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/FrameWindow' WindowRenderers removed. (01DD7748)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/FrameWindow' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ItemEntry' WindowRenderers removed. (01DD77F0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ItemEntry' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ListHeader' WindowRenderers removed. (01DD7898)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ListHeader' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ListHeaderSegment' WindowRenderers removed. (01DD7940)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ListHeaderSegment' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Listbox' WindowRenderers removed. (01DD79E8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Listbox' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Menubar' WindowRenderers removed. (01DD7A90)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Menubar' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/MenuItem' WindowRenderers removed. (01DD7B38)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/MenuItem' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/MultiColumnList' WindowRenderers removed. (01E291A8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/MultiColumnList' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/MultiLineEditbox' WindowRenderers removed. (01E29250)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/MultiLineEditbox' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/PopupMenu' WindowRenderers removed. (01E292F8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/PopupMenu' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ProgressBar' WindowRenderers removed. (01E293A0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ProgressBar' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ScrollablePane' WindowRenderers removed. (01E29448)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ScrollablePane' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Scrollbar' WindowRenderers removed. (01E294F0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Scrollbar' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Slider' WindowRenderers removed. (01E29598)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Slider' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Static' WindowRenderers removed. (01E29640)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Static' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/StaticImage' WindowRenderers removed. (01E296E8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/StaticImage' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/StaticText' WindowRenderers removed. (01E29790)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/StaticText' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/SystemButton' WindowRenderers removed. (01E29838)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/SystemButton' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/TabButton' WindowRenderers removed. (01E298E0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/TabButton' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/TabControl' WindowRenderers removed. (01E29988)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/TabControl' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Titlebar' WindowRenderers removed. (01E29A30)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Titlebar' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ToggleButton' WindowRenderers removed. (01E29AD8)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ToggleButton' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Tooltip' WindowRenderers removed. (01E29B80)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Tooltip' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/ItemListbox' WindowRenderers removed. (01E29C28)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/ItemListbox' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	WindowRendererFactory for 'Falagard/Tree' WindowRenderers removed. (01E29CD0)
+02/11/2010 09:55:51 (Std) 	Deleted WindowRendererFactory for 'Falagard/Tree' WindowRenderers.
+02/11/2010 09:55:51 (Std) 	CEGUI::SchemeManager singleton destroyed. (01DD0628)
+02/11/2010 09:55:51 (Std) 	CEGUI::WindowManager singleton destroyed (01DE87B8)
+02/11/2010 09:55:51 (Std) 	CEGUI::WindowFactoryManager singleton destroyed
+02/11/2010 09:55:51 (Std) 	CEGUI::WidgetLookManager singleton destroyed. (01DCE2C8)
+02/11/2010 09:55:51 (Std) 	CEGUI::WindowRendererManager singleton destroyed (01DCE2F0)
+02/11/2010 09:55:51 (Std) 	CEGUI::AnimationManager singleton destroyed (00DBC900)
+02/11/2010 09:55:51 (Std) 	CEGUI::RenderEffectManager singleton destroyed (01CE55E0)
+02/11/2010 09:55:51 (Std) 	---- Begining cleanup of Font system ----
+02/11/2010 09:55:51 (Std) 	CEGUI::FontManager singleton destroyed. (01DD0538)
+02/11/2010 09:55:51 (Std) 	CEGUI::MouseCursor singleton destroyed. (00DBCA80)
+02/11/2010 09:55:51 (Std) 	---- Begining cleanup of Imageset system ----
+02/11/2010 09:55:51 (Std) 	CEGUI::ImagesetManager singleton destroyed (01DD0448)
+02/11/2010 09:55:51 (Std) 	CEGUI::GlobalEventSet singleton destroyed. (01DC77E0)
+02/11/2010 09:55:51 (Std) 	CEGUI::System singleton destroyed. (00E2F488)
+02/11/2010 09:55:51 (Std) 	---- CEGUI System destruction completed ----
+02/11/2010 09:55:51 (Std) 	CEGUI::Logger singleton destroyed. (00E2F750)

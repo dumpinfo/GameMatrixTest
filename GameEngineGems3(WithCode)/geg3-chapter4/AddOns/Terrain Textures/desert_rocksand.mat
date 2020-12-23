@@ -1,0 +1,4 @@
+texture0=.\desert_rocksand.tex
+texture1=.\desert_rocksanddot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

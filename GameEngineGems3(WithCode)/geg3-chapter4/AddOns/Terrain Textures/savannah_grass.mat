@@ -1,0 +1,4 @@
+texture0=.\savannah_grass.tex
+texture1=.\savannah_grassdot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

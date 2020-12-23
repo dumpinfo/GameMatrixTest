@@ -1,0 +1,4 @@
+texture0=.\mountain_rockwallsnow.tex
+texture1=.\mountain_rockwallsnowdot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

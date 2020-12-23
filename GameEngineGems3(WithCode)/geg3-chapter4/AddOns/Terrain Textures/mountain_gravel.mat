@@ -1,0 +1,4 @@
+texture0=.\mountain_gravel.tex
+texture1=.\mountain_graveldot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

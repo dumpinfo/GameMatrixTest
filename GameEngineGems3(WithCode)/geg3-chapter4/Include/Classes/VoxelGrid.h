@@ -1,0 +1,1 @@
+#include "../Leadwerks3D.h"class iVec3{	int x;	int y;	int z;}class Grid3D{		map<iVec3,bool> grid;		VoxelGrid();	VoxelGrid(Surface* surface);		void SetVoxelState(const int x, const int y, const int z, const bool state)	bool GetVoxelState(const int x, const int y, const int z, const bool state)	bool ToSurface(Surface* surface, int mode = VOXEL_MODE_SMOOTH);};

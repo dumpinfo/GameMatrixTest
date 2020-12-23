@@ -1,0 +1,17 @@
+//Leadwerks Material File
+
+blendmode=0
+castshadows=1
+zsort=0
+cullbackfaces=0
+depthtest=1
+depthmask=1
+diffuse=0.752941191,0.752941191,0.752941191,1.00000000
+specular=0.000000000,0.000000000,0.000000000,1.00000000
+alwaysuseshader=0
+mappingscale=1.00000000,1.00000000,1.00000000
+drawmode=-1
+
+shader="Shaders/Model/diffuse+normal+alphamask.shader"
+texture0="./pine-branch-diff.tex"
+texture1="./pine-branch-norm.tex"

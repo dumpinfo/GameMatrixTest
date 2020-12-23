@@ -1,0 +1,18 @@
+//Leadwerks Material File
+
+decalmode=0
+blendmode=1
+castshadows=0
+zsort=0
+cullbackfaces=1
+depthtest=0
+depthmask=0
+diffuse=1.00000000,1.00000000,1.00000000,1.00000000
+specular=0.0666666701,0.0666666701,0.0666666701,1.00000000
+alwaysuseshader=0
+mappingscale=1.00000000,1.00000000,1.00000000
+drawmode=-1
+
+shader="Shaders/Decal/diffuse+normal.shader"
+texture0="./wound.tex"
+texture1="./wound_dot3.tex"

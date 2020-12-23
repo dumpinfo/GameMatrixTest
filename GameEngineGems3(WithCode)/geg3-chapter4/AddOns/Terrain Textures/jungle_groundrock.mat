@@ -1,0 +1,4 @@
+texture0=.\jungle_groundrock.tex
+texture1=.\jungle_groundrockdot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

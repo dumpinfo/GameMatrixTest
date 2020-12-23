@@ -1,0 +1,4 @@
+texture0=.\savannah_mud.tex
+texture1=.\savannah_muddot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

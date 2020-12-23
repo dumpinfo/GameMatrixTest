@@ -1,0 +1,4 @@
+texture0=.\mountain_ice.tex
+texture1=.\mountain_icedot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"

@@ -1,0 +1,4 @@
+texture0=.\jungle_rootsrocks.tex
+texture1=.\jungle_rootsrocksdot3.tex
+lightingmode=1
+shader="Shaders/Model/diffuse+normal.shader"
